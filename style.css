@@ -1,6 +1,6 @@
 body {
-  background-color: #adb5bd;
-  color: #6c757d;
+  background-color: #121212;
+  color: #F5F5F5;
   font-family: "Jersey 15", serif;
   font-style: normal;
   font-size: 17px;
@@ -14,12 +14,10 @@ h1, h2 {
 }
 h1 {
   font-size: 32px;
-  color: #212529;
 }
 
 h2 {
   font-size: 24px;
-  color: #495057;
 }
 
 p {
@@ -28,16 +26,16 @@ p {
 
 a {
   text-decoration: none;
-  color: #adb5bd;
+  color: #F5F5F5;
 }
 
 a:hover {
-  color: #212529;
+  opacity: 0.6;
 }
 
 .img-cirlce {
   width: 100px;
-  height: 150px;
+  height: 130px;
   border-radius: 50%;
 }
 
@@ -45,8 +43,8 @@ a:hover {
   width: 500px;
   margin: 0 auto;
 }
-.card-grey {
-  background-color: #dee2e6;
+.card {
+  background-color: #232323;
   padding: 30px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
@@ -55,8 +53,8 @@ a:hover {
 }
 
 .btn {
-  background-color: #adb5bd;
-  color: #e9ecef;
+  background-color: #F5F5F5;
+  color: #232323;
   padding: 15px 20px;
   border-radius: 5px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
@@ -70,8 +68,7 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: #212529;
-  color: #f8f9fa;
+  opacity: 0.7;
 }
 
 
